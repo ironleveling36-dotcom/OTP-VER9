@@ -29,7 +29,7 @@ def main_menu_keyboard(top_services: list = None) -> InlineKeyboardMarkup:
     buttons.extend([
         [InlineKeyboardButton("📱 Get OTP Number",  callback_data="menu:get_otp"),
          InlineKeyboardButton("🔍 Search",          callback_data="menu:search")],
-        [InlineKeyboardButton("🍔 Swiggy Checker",  callback_data="menu:swiggy")],
+        [InlineKeyboardButton("🍔 Swiggy New Numbers",  callback_data="menu:swiggy")],
         [InlineKeyboardButton("📋 Active Orders",   callback_data="menu:active"),
          InlineKeyboardButton("🕒 Recently Used",   callback_data="menu:recent")],
         [InlineKeyboardButton("🧾 Purchase History", callback_data="menu:history"),
